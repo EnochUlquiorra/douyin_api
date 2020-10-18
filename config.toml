@@ -1,0 +1,11 @@
+[server]
+    port = 25008
+# 是否缓存数据到redis,不缓存删除配置即可
+[redis]
+    default = "127.0.0.1:6379,1,12345678?idleTimeout=600"
+[encrypt]
+    api = "http://127.0.0.1:3008"
+    token = "试用vx:mimiya_vip"
+
+[search]
+    xg_ext = false
