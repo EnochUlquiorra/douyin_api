@@ -26,4 +26,8 @@ API 文档
 /api/do/user/profile/{device_id}/{user_id}/{sec_user_id}
 /api/do/user/promotion/{device_id}/{user_id}/{sec_user_id} 
 /api/do/user/search/{device_id}/{key_word}
+
+/api/do/video_raw_url
+/api/do/video_upload
+/api/do/live/message
 ```
